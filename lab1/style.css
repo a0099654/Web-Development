@@ -1,0 +1,97 @@
+h1,h4,p{
+    text-align: center;
+    margin-top:-20px;
+    color: dodgerblue;
+    font-family: fantasy;
+}
+
+h2{
+    color: teal;
+    font-family: fantasy;
+}
+
+.blank{
+    border-bottom: 1px solid black; 
+    padding-left: 120px
+}
+
+b{
+    color:black;
+}
+
+a:hover{
+    background-color: aliceblue;
+    
+}
+
+body{
+    background-image: url("../images/background.jpg");
+    background-size: 100%;
+}
+
+.home{
+    float:right;
+    text-decoration: underline;
+}
+
+#square {
+	width: 100px;
+	height: 100px;
+	background: green;
+}
+
+#circle {
+	width: 100px;
+	height: 100px;
+	background: green;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+#triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid green;
+}
+
+#triangle-bottomleft {
+	width: 0;
+	height: 0;
+	border-bottom: 100px solid green;
+	border-right: 100px solid transparent;
+}
+	
+table{
+    width: 100%;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 1px solid black;
+    font-family: fantasy;
+}
+
+img{
+    height: 150px;
+    width: 100px;
+}
+
+.matchImg{
+    width: 180px;
+}
+
+ol li{
+    margin-left: 10px;
+}
+
+.ordered-list{
+    margin-left: 40px;
+    line-height: 40px;
+    font-family: fantasy;
+}
+
+.silhoutte{
+    -webkit-filter: brightness(0%);
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Interactive Matching Activity</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
+    </head>
+
+    <body>
+        <fieldset id="gen"> <!-- yup, we have not discussed fieldset, legend, input, and button in the lecture, so GIYF -->
+        <legend>Generate Worksheet</legend>
+        Enter <b>n</b>: <input type="number" min="2" max="12" value="4" id="n"> <button id="btn">Generate Worksheet</button>
+        </fieldset>
+
+        <p>Message: <span id="msg">Select worksheet size and click 'Generate Worksheet'</span>.</p>
+        <div><span class="no_of_clicks">0</span> button #1 clicks.</div>
+        <div>
+            <h3>Match the items on the left and right side</h3>
+            <table id="tbl">
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+
+        <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>

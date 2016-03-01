@@ -1,0 +1,58 @@
+/* style.css, by default saved in subfolder /css */
+#tbl{
+     margin: 0 auto;
+}
+
+td { 
+    font-size: 200%; 
+}
+
+td.left { 
+    padding-right: 50px; 
+}
+
+td.right { 
+    padding-left: 50px; 
+}
+
+.blank{
+   width: 100px;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+
+
+.clicked {
+    opacity:0.5;
+    border-radius:30px;
+}
+
+.avoid-clicks{
+    pointer-events: none;
+}
+
+
+#right_move:hover{
+    transform: translate(25px, 0px);
+}
+
+#left_move:hover{
+    transform: translate(-25px, 0px);
+}
+
+.silhoutte{
+    -webkit-filter: brightness(0%);
+}
+
+body{
+     font-family: 'Tangerine', serif;
+     font-size: 25px;
+     background-color: aliceblue;
+}
+
+h3{
+    text-align: center;
+}
